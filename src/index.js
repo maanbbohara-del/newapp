@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Foot from './Comp/Foot/Foot';
+import Head from './Comp/Head/Head';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Head />
     <App />
+    <Foot />
   </React.StrictMode>
 );
 
