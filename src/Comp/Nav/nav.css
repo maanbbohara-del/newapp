@@ -1,12 +1,14 @@
 ol{
     margin: 0;
-    background-color: chartreuse;
+    background-color: rgb(140, 116, 235);
     list-style: none;
-    padding: 30px 60px;
+    padding: 30px 100px;
+    
     font-size: 20px;
     display: flex;
     justify-content: space-between;
 }
 a{
+    color: rgb(4, 0, 13);
     text-decoration: none;
 }

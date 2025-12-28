@@ -3,73 +3,21 @@ import './contact.css';
 
 function Contact() {
   return (
-    <div class="contact_us_2">
-  <div class="responsive-container-block big-container">
-    <div class="blueBG">
+    <div className="form-container">
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
     </div>
-    <div class="responsive-container-block container">
-      <form class="form-box">
-        <div class="container-block form-wrapper">
-          <p class="text-blk contactus-head">
-            Get in Touch
-          </p>
-          <p class="text-blk contactus-subhead">
-            Nunc erat cursus tellus gravida.
-          </p>
-          <div class="responsive-container-block">
-            <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt">
-              <p class="text-blk input-title">
-                FIRST NAME
-              </p>
-              <input class="input" id="ijowk" name="FirstName" placeholder="Please enter first name..." />
-            </div><br></br><br></br>
-            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-              <p class="text-blk input-title">
-                LAST NAME
-              </p>
-              <input class="input" id="indfi" name="Last Name" placeholder="Please enter last name..." />
-            </div><br></br><br></br>
-            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-              <p class="text-blk input-title">
-                EMAIL
-              </p>
-              <input class="input" id="ipmgh" name="Email" placeholder="Please enter email..." />
-            </div><br></br><br></br>
-            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-              <p class="text-blk input-title">
-                PHONE NUMBER
-              </p>
-              <input class="input" id="imgis" name="PhoneNumber" placeholder="Please enter phone number..." />
-            </div><br></br><br></br>
-            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
-              <p class="text-blk input-title">
-                WHAT DO YOU HAVE IN MIND
-              </p>
-              <textarea class="textinput" id="i5vyy" placeholder="Please enter query..."></textarea>
-            </div>
-          </div>
-          <button class="submit-btn">
-            Submit
-          </button>
-        </div>
-        <div class="social-media-links">
-          <a href="#" id="ix94i-2">
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" />
-          </a>
-          <a href="#">
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" />
-          </a>
-          <a href="#">
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png" />
-          </a>
-          <a href="#" id="izldf-2">
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" />
-          </a>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
   )
 }
 
