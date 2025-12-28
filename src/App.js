@@ -7,7 +7,7 @@ import About from "./Comp/About/About";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
       <Nav />
       <Routes>
