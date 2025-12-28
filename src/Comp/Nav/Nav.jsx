@@ -1,12 +1,14 @@
 import React from 'react'
 import './nav.css';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <div className='nav'>
         <ol>
-            <li><a href='/home'>Home</a></li>
-            <li><a href='/contact'>Contact</a></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
+             <li><Link to='/about'>About</Link></li>
         </ol>
     </div>
   )
